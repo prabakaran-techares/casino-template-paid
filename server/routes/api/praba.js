@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { getOnwerShip } = require('../../controllers/praba');
 
-router.get(
+router.post(
   '/',
   [],
   getOnwerShip,
