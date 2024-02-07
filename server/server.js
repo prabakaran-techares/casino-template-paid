@@ -7,6 +7,7 @@ const configureRoutes = require('./routes');
 const socketio = require('socket.io');
 const gameSocket = require('./socket/index');
 
+
 // Connect and get reference to mongodb instance
 // let db;
 
